@@ -3,3 +3,16 @@ body {
   border: 4px dotted brown;
 
 }
+a {
+    color: orange;
+    font-size: 28px;
+    text-shadow: 2px 2px 10px red;
+    text-decoration: none;
+    border-bottom: 8px solid darkorchid;
+    line-height: 60px;
+
+
+
+
+
+}
