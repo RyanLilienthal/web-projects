@@ -16,3 +16,17 @@ a {
 
 
 }
+
+.memory-stones {
+
+  background-color: black;
+
+}
+
+.memory-archive {
+
+  border: 20px double rgb(235, 213, 213);
+  font-size: 80px;
+  text-shadow: none;
+
+}
