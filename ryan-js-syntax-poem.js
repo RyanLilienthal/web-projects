@@ -9,10 +9,10 @@ function theConsciousIs() {
 	// Did you know theConsciousIs unaware of what lurks behind, and underneath, transcribed in unscripted text. The superego alway constraining, score-keeping, counting ...
 	count++
 	console.log(count)
-	// But, what is there to console with constant counting somewhere in my head ... no, by body. Everytime this function is called, add one adds to the variable ... changing and returning. Locked in a cycle.
+	// But, what is there to console with constant counting somewhere in one's head ... no, one's body. Everytime this function is called, one adds to the variable ... changing and returning. Locked in a cycle.
 	if (conscious.innerHTML === "my head is in the ground") {
-		// check if the message variable, declared above, has text inside it that says "my head is in the ground", if it does do the following:
-		conscious.innerHTML = "or perhaps in the clouds, lost in thought, commented out ... a green text ... con-text ... I do not see. Not negated, but neither in head nor body.";
+		// Does the text inside say "my head is in the ground", if so:
+		conscious.innerHTML = "perhaps it is in the clouds, lost in thought, commented out ... a green text ... con-text ... I do not see. Not negated, but neither in head nor body.";
 		//how can I change these ruminating thoughts "... a green text ... con-text ... I do not see. Not negated, but neither in head nor body.";
 		conscious.classList.add("unbalanced");
 		//a new "unbalanced" class disorients
