@@ -1,0 +1,26 @@
+html, body{
+  background-image: url("metamorphosis-01.jpg");
+  background-repeat: no-repeat;
+  background-size: 145%;
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 25px;
+  /* color: black; */
+}
+
+h2 {
+  margin: 25px;
+}
+a {
+  color: yellow;
+  margin: 25px;
+  margin-bottom: 200px;
+
+}
+
+a:hover {
+  color: greenyellow;
+}
