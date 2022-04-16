@@ -1,8 +1,8 @@
 html, body{
-  background-image: url("metamorphosis-01.jpg");
+  background-image: url("self-portrait.jpg");
   background-repeat: no-repeat;
   background-size: 145%;
-  color: white;
+  color: rgb(250, 250, 250);
 }
 
 h1 {
