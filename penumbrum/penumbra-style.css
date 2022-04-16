@@ -1,0 +1,39 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1-second {
+    margin-left: 200px;
+}
+
+/* penumbra as defined by merriam-webster dictionary: https://www.merriam-webster.com/dictionary/penumbra */
+
+/* condundrum as defined by merriam-webster dictionary: https://www.merriam-webster.com/dictionary/penumbra */
+
+.alternate:nth-child(odd) {
+    color: white;
+    transition: all 2s linear;
+  }
+  
+  .alternate:nth-child(odd):hover {
+    background-color: black;
+    cursor: pointer;
+    padding: 20px;
+  }
+  
+  .alternate img {
+    z-index: 0;
+    position: absolute;
+    max-width: 200px;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+  }
+  .alternate:hover img {
+    opacity: 1;
+  }
+
+  h2 {
+    margin: 50px;  
+    text-align: center;
+  }
