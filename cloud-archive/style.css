@@ -1,35 +1,55 @@
 body {
-  background-color: gold;
-  border: 4px dotted brown;
+  background-color: rgb(163, 208, 238);
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.memorials {
+  margin-left: 200px;
+  padding: 40px;
+}
+
+/* .inversion {
+  margin-left: 200px;
+  padding: 40px;
+
+} */
+
+span {
+  display: inline-block;
+  margin: 40px;
+}
+
+.flipV {
+  transform: scale(1, -1);
+  color: #050505;
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
 }
 
 .paper-body {
   background-color: lightpink;
-
 }
 
-
 a {
-    color: rgb(0, 140, 255);
-    font-size: 28px;
+    color: rgb(2, 2, 2);
+    font-size: 25px;
     text-shadow: 2px 2px 10px red;
     text-decoration: none;
-    border-bottom: 8px solid darkorchid;
+    border-bottom: 8px solid rgb(109, 28, 59);
     line-height: 60px;
-
 }
 
 .span-g {
   position: fixed;
   left: 80%;
   display: inline;
-
 }
 
 .folding-span {
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .folding-a {
@@ -50,17 +70,18 @@ a {
 .memory-archive {
 
   border: 20px double rgb(235, 213, 213);
-  font-size: 80px;
+  font-size: 30px;
   text-shadow: none;
-  padding:40px solid red;
+  padding: 20px;
   margin-bottom:40px;
-
 }
-P{
+
+p {
   display:inline;
   padding:40px;
   border:2px solid red;
 }
+
 .block{
   font-family:Arial, Helvetica, sans-serif;
   padding:20px;
