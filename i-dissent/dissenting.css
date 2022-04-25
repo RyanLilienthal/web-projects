@@ -43,6 +43,20 @@ html, body, a {
     font-style: normal;
 }
 
+a {
+    font-family: schoolbook, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px; 
+    text-align: center;
+    line-height: 25px;
+    color: red;
+}
+
+a:hover {
+    color: maroon;
+}
+
 .heading {
     margin: auto;
     width: 60%;
