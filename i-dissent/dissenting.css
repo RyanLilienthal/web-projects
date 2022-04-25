@@ -43,6 +43,25 @@ html, body, a {
     font-style: normal;
 }
 
+html {
+    background-image: url("womens-health-shadow-docket.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(250, 250, 250);
+  }
+
+.justices {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+/* .justices-absolute {
+    position: absolute;
+    bottom: 10px;
+} */
+
 a {
     font-family: schoolbook, serif;
     font-weight: 400;
@@ -51,6 +70,7 @@ a {
     text-align: center;
     line-height: 25px;
     color: red;
+    margin-top: 10px;
 }
 
 a:hover {
