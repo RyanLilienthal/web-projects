@@ -13,17 +13,6 @@ function thePenumbraIs() {
 
         privacy.innerHTML = "cast into darkness fundamental rights illuminated in the Constitution's penumbra";
 
-// Where does privacy find protection?
-// The Court waits and Wades into seen
-// Amendments like Peter Pan
-// Reconnecting with one's ever-present silhouette
-// One's essential self
-// Row 
-// Roe 
-// Row Home
-// Home Row
-// The treasured source tucked away at Home
-// Illuminated on Command 
 
 		privacy.classList.add("impunity");
 
@@ -44,8 +33,14 @@ function thePenumbraIs() {
 	}
 }
 
-
-// var audio = $("#mySoundClip")[0];
-// $("docket").mouseenter(function() {
-//   audio.play();
-// });
+// Where does privacy find protection?
+// The Court waits and Wades into seen
+// Amendments like Peter Pan
+// Reconnecting with one's ever-present silhouette
+// One's essential self
+// Row 
+// Roe 
+// Row Home
+// Home Row
+// The treasured source tucked away at Home
+// Illuminated on Command 
