@@ -9,16 +9,16 @@ function theBillofRights() {
 	count++
 	console.log(count)
 
-	if (privacy.innerHTML === "unsigned majority opinions obscure accountability") {
+	if (privacy.innerHTML === "cast into darkness fundamental rights illuminated in the Constitution's penumbra") {
 
-        privacy.innerHTML = "cast into darkness fundamental rights illuminated in the Constitution's penumbra";
+        privacy.innerHTML = "THE SHADOW DOCKET";
 
 
 		privacy.classList.add("impunity");
 
     } else if (count >=3) {
 
-		privacy.innerHTML = "unsigned majority opinions obscure accountability";
+		privacy.innerHTML = "cast into darkness fundamental rights illuminated in the Constitution's penumbra";
 		count = 0;
 
 		if (privacy.classList.contains("impunity")) {
@@ -26,7 +26,7 @@ function theBillofRights() {
 		}
 	} else {
 
-        privacy.innerHTML = "the Shadow Docket";
+        privacy.innerHTML = "unsigned majority opinions obscure accountability";
 		if (privacy.classList.contains("impunity")) {
 			privacy.classList.remove("impunity");
 		}
