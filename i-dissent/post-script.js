@@ -1,33 +1,51 @@
-let conscious = document.getElementById("freudian-script");
+let privacy = document.getElementById("protected-class");
 
 let count = 0;
 
-window.addEventListener("click", theConsciousIs)
+window.addEventListener("click", thePenumbraIs)
 
-function theConsciousIs() {
+function thePenumbraIs() {
 
 	count++
 	console.log(count)
 
-	if (conscious.innerHTML === "my head is in the ground") {
+	if (privacy.innerHTML === "unsigned majority opinions obscure accountability") {
 
-        conscious.innerHTML = "perhaps it is in the clouds, lost in thought, commented out ... a green text ... con-text ... I do not see. Not negated, but neither in head nor body.";
+        privacy.innerHTML = "cast into darkness fundamental rights illuminated in the Constitution's penumbra";
 
-		conscious.classList.add("unbalanced");
+// Where does privacy find protection?
+// The Court waits and Wades into seen
+// Amendments like Peter Pan
+// Reconnecting with one's ever-present silhouette
+// One's essential self
+// Row 
+// Roe 
+// Row Home
+// Home Row
+// The treasured source tucked away at Home
+// Illuminated on Command 
+
+		privacy.classList.add("impunity");
 
     } else if (count >=3) {
 
-		conscious.innerHTML = "When will it all click, a clicking clarity of insight";
+		privacy.innerHTML = "unsigned majority opinions obscure accountability";
 		count = 0;
 
-		if (conscious.classList.contains("unbalanced")) {
-			conscious.classList.remove("unbalanced");
+		if (privacy.classList.contains("impunity")) {
+			privacy.classList.remove("impunity");
 		}
 	} else {
 
-        conscious.innerHTML = "my head is in the ground";
-		if (conscious.classList.contains("unbalanced")) {
-			conscious.classList.remove("unbalanced");
+        privacy.innerHTML = "the Shadow Docket";
+		if (privacy.classList.contains("impunity")) {
+			privacy.classList.remove("impunity");
 		}
 	}
 }
+
+
+// var audio = $("#mySoundClip")[0];
+// $("docket").mouseenter(function() {
+//   audio.play();
+// });

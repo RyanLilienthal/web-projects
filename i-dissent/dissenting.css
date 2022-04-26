@@ -71,7 +71,7 @@ html, body, a {
     display: table;
   }
 
-.title {
+#protected-class {
     font-family: schoolbook, serif;
     font-weight: 400;
     font-style: normal;
@@ -90,16 +90,41 @@ html, body, a {
     margin-left: auto;
     /* margin-right: auto; */
     width: 70%;
+    z-index: -10;
 
 }
+/* 
+.alternate:nth-child(odd) {
+    color: white;
+    transition: all 2s linear;
+}
+  
+.alternate:nth-child(odd):hover {
+    background-color: black;
+    cursor: pointer;
+    padding: 20px;
+    transform: rotate(45deg);
+}
+  
+.alternate img {
+    z-index: 10;
+    position: absolute;
+    max-width: 200px;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+}
+  
+.alternate:hover img {
+    opacity: 1;
+  } */
 
-#pointer {
+/* #pointer {
     width: 200px;
     height: 40px;
     position: relative;
     background: red;
     z-index: 10;
-  }
+  } */
   /* #pointer:after {
     content: "";
     position: absolute;
@@ -220,12 +245,21 @@ a:hover {
       text-align: center;
   }
   
-  .unbalanced {
-      text-shadow:  3px 3px 10px;
-      color:  rgb(72, 255, 0);
-      transform: rotate(5deg);
+  .impunity {
+      text-shadow:  30px 30px 30px;
+      color:  rgb(3, 3, 3);
+      transform: rotate(10deg);
       margin-top:  80px;
+      font-size: 200px;
   }
+
+  #roe-v-wade {
+      position: fixed;
+      width: 10%;
+      z-index: 20;
+      margin-left: 300px;
+  }
+
   #the-perk {
       /* color:  red;
       transform: rotate(5deg);
