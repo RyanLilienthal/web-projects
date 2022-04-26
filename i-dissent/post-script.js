@@ -2,9 +2,9 @@ let privacy = document.getElementById("protected-class");
 
 let count = 0;
 
-window.addEventListener("click", thePenumbraIs)
+window.addEventListener("click", theBillofRights)
 
-function thePenumbraIs() {
+function theBillofRights() {
 
 	count++
 	console.log(count)
