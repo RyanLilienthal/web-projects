@@ -148,6 +148,11 @@ a:hover {
     color: white;
 }
 
+.normal-justify-kagan-poem:hover {
+    color:rgb(3, 3, 3, 1.0);
+    background-color: white;
+}
+
 .small-cap {
     font-variant: small-caps;
     /* position: absolute */
@@ -174,6 +179,48 @@ a:hover {
     width: 100%;
     position: absolute;
 }
+
+/* .normal-justify-kagan {
+    font-family: schoolbook, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px; 
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 25px;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+} */
+
+.normal-justify-kagan-poem {
+    font-family: schoolbook, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px; 
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 25px;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    color: rgb(0, 0, 0, 0.0);
+    z-index: 5;
+}
+
+.one-quarter {
+    margin-left: 25%;
+}
+
+.one-half {
+    margin-left: 50%;
+}
+
+.three-quarter {
+    margin-left: 75%;
+}
+
+
 
 .heading-bold {
     font-family: schoolbook, serif;
