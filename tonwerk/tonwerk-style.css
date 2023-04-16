@@ -17,9 +17,11 @@ html {
   padding: 17px;
   width: 100%;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
   font-weight: normal;
-  font-size: 45px;
+  font-size: 60px;
+  color:rgb(255, 255, 255);
   text-shadow: 1px 1px 3px black;
   line-height: 50px;
   z-index: 10;
@@ -33,39 +35,43 @@ html {
 
 .nav-container {
   position: fixed;
-  bottom: 20px;
-  left: 15px;
+  bottom: 15px;
+  margin-left: 40px;
+  width: 100%;
   z-index: 10;
 
 }
 
 .nav {
     text-align: left;
-    margin-left: 50px;
+    /* margin-left: 40px; */
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     text-decoration: none;
 }
 
 .nav a {
-    font-size: 45px;
-    font-style: bold;
-    color: black;
-    margin: 10px;
+    font-size: 30px;
+    font-style: normal;
+    color: rgb(255, 255, 255, 0.5);
+    /* margin: 10px; */
     z-index: 5;
     text-decoration: none;
+    font-weight: normal;
+    text-shadow: 1px 1px 3px black;
+    line-height: 20px;
 }
 
 .nav a:hover {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 30px;
     text-shadow: 1px 0px #080808;
 }
 
-.active { 
+/* .active { 
     color: rgb(255, 255, 255) !important;
     font-size: 50px !important;
-    text-shadow: 1px 0px #080808; 
+    text-shadow: 1px 0px #080808;  */
 }
 
 .video {
