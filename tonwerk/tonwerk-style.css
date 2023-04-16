@@ -2,27 +2,83 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
+body,
+html {
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  margin: 0px;
+  margin-top: -10px;
+  padding: 0px;
+  height: 100vh;
+  color: white;
+  background-color: rgb(87, 107, 103);
 }
- 
-.tonwerk {
+
+.header {
+  padding: 17px;
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 45px;
+  text-shadow: 1px 1px 3px black;
+  line-height: 50px;
   z-index: 10;
-  float: left;
-  margin-right: 60%;
-  margin-left: 50pt;
+}
+
+.header,
+.bottom {
+  z-index: 10;
+  position: fixed;
+}
+
+.nav-container {
+  position: fixed;
+  bottom: 20px;
+  left: 15px;
+  z-index: 10;
 
 }
 
-/* #myVideo {
-  position: fixed;
+.nav {
+    text-align: left;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 50px;
+    text-decoration: none;
+}
+
+.nav a {
+    font-size: 45px;
+    font-style: bold;
+    color: black;
+    margin: 10px;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 1px 0px #080808;
+}
+
+.active { 
+    color: rgb(255, 255, 255) !important;
+    font-size: 50px !important;
+    text-shadow: 1px 0px #080808; 
+}
+
+.video {
+  position: absolute;
+  z-index: 1;
   right: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
-} */
+}
+
+
+
 
 /* .content {
   position: fixed;
