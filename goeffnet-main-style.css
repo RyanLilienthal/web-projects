@@ -1,15 +1,19 @@
 html {
-  background-image: url("ryan-mgsa.jpg");
+  background-image: url("jc-buchenwald-list.jpg");
+  height: 100%;
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: 145%;
-  color: rgb(23, 74, 133);
-  text-shadow: 4px 4px rgb(253, 172, 117);
+  background-size: cover;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgba(90, 90, 13, 0.6);
   font-family:Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  font-size: 80px;
-  margin: 50px;
+  font-size: 65px;
+  margin-left: 50px;
+  margin-top: 20px;
   /* color: black; */
 }
 
@@ -17,11 +21,11 @@ h2 {
   margin: 25px;
 }
 a {
-  color: rgb(23, 74, 133);
+  color: rgb(255, 255, 255);
   margin: 25px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 a:hover {
-  color: rgb(119, 165, 49);
+  color: rgb(92, 103, 146);
 }
