@@ -65,6 +65,14 @@ html {
   z-index: 10;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: -10;
+}
+
 .nav-container {
   position: fixed;
   bottom: 15px;
