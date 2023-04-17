@@ -47,6 +47,24 @@ html {
   line-height: 50px;
   z-index: 10;
 }
+
+.statement {
+  padding: 17px;
+  /* width: 100%; */
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 40px;
+  font-weight: normal;
+  font-size: 15px;
+  color:rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px black;
+  line-height: 20px;
+  height: 400px;
+  overflow: scroll;
+  z-index: 10;
+}
+
 .nav-container {
   position: fixed;
   bottom: 15px;
