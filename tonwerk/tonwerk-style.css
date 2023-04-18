@@ -20,7 +20,7 @@ html {
   width: 100%;
   text-align: left;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 90px;
   font-weight: normal;
   font-size: 60px;
   color:rgb(255, 255, 255);
@@ -30,7 +30,7 @@ html {
 }
 
 .header,
-.bottom,
+/* .bottom, */
 .sub-header {
   z-index: 10;
   position: fixed;
@@ -41,7 +41,7 @@ html {
   width: 100%;
   text-align: left;
   margin-top: 50px;
-  margin-left: 20px;
+  margin-left: 90px;
   font-weight: normal;
   font-size: 30px;
   color:rgb(255, 255, 255);
@@ -55,8 +55,8 @@ html {
   /* width: 100%; */
   text-align: left;
   margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 40px;
+  margin-left: 90px;
+  margin-right: 210px;
   font-weight: normal;
   font-size: 15px;
   color:rgb(255, 255, 255);
@@ -71,7 +71,7 @@ html {
 .nav-container {
   position: fixed;
   bottom: 15px;
-  margin-left: 40px;
+  margin-left: 110px;
   width: 100%;
   z-index: 10;
 
