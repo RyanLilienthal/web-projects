@@ -11,7 +11,7 @@ html {
   padding: 0px;
   height: 100%;
   color: white;
-  background-color: rgb(87, 107, 103);
+  background-color: rgb(91, 97, 95);
 
 }
 
@@ -20,7 +20,7 @@ html {
   width: 100%;
   text-align: left;
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 20px;
   font-weight: normal;
   font-size: 60px;
   color:rgb(255, 255, 255);
@@ -41,7 +41,7 @@ html {
   width: 100%;
   text-align: left;
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 20px;
   font-weight: normal;
   font-size: 30px;
   color:rgb(255, 255, 255);
@@ -55,8 +55,8 @@ html {
   /* width: 100%; */
   text-align: left;
   margin-top: 50px;
-  margin-left: 40px;
-  margin-right: 250px;
+  margin-left: 25px;
+  margin-right: 350px;
   font-weight: normal;
   font-size: 15px;
   color:rgb(255, 255, 255);
@@ -71,7 +71,7 @@ html {
 .nav-container {
   position: fixed;
   bottom: 15px;
-  margin-left: 60px;
+  margin-left: 40px;
   width: 100%;
   z-index: 10;
 
@@ -98,7 +98,7 @@ html {
 }
 
 .nav a:hover {
-    color: rgb(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     text-shadow: 1px 0px #080808;
 }
