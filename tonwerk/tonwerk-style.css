@@ -2,9 +2,19 @@
   box-sizing: border-box;
 }
 
-
-
 html {
+  background-image: url("tonwerk-installation-still-360.jpg");
+  height: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgba(90, 90, 13, 0.6);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* html {
   font-family: Arial, Arial, Helvetica, sans-serif;
   margin: 0px;
   margin-top: -10px;
@@ -13,7 +23,9 @@ html {
   color: white;
   background-color: rgb(91, 97, 95);
 
-}
+} */
+
+
 
 .header {
   padding: 17px;
