@@ -12,6 +12,7 @@ html {
 
 h1 {
   font-size: 55px;
+  font-weight: 200;
   margin-left: 50px;
   margin-top: 20px;
   /* color: black; */
@@ -19,6 +20,7 @@ h1 {
 
 h2 {
   margin: 20px;
+  font-weight: 200;
   bottom: 20px;
   position: fixed;
 }
@@ -97,15 +99,17 @@ a:hover {
 
   h1 {
     font-size: 45px;
+    font-weight: 200;
     margin-left: 15px;
     margin-top: 10px;
     /* color: black; */
   }
   
   h2 {
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 200;
     margin-left: -5px;
     bottom: 20px;
     position: fixed;
-    line-height: 3;
+    line-height: 2;
   }
