@@ -19,6 +19,8 @@ h1 {
 
 h2 {
   margin: 20px;
+  bottom: 20px;
+  position: fixed;
 }
 
 /* .nav-container {
