@@ -11,14 +11,14 @@ html {
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 55px;
   margin-left: 50px;
   margin-top: 20px;
   /* color: black; */
 }
 
 h2 {
-  margin: 25px;
+  margin: 20px;
 }
 
 /* .nav-container {
@@ -91,4 +91,18 @@ a:hover {
   
   .video {
     padding-bottom: 275px;
+  }
+
+  h1 {
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* color: black; */
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-left: 0px;
+    bottom: 20px;
+    position: fixed;
   }
