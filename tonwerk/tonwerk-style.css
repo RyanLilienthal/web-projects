@@ -83,7 +83,7 @@ html {
 
 .nav-container {
   position: fixed;
-  bottom: 35px;
+  bottom: 30px;
   margin-left: 80px;
   width: 100%;
   z-index: 10;
